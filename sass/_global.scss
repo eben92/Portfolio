@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+
+// variables
+$ff: "Montserrat", sans-serif;
+$bg-color: rgb(255, 255, 255);
+$header-color: rgb(39, 35, 65);
+$name-color: rgb(1, 193, 174);
+$about-bg: rgb(2, 181, 175);
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,147 @@
+@media (min-width: 768px) {
+  main {
+    .about {
+      background: $about-bg;
+      height: 100vh;
+
+      .about-container {
+        color: white;
+
+        .about-me {
+          padding: 40px;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 2.5rem;
+        }
+        .flex-items {
+          padding: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 70px;
+
+          .dp {
+            position: relative;
+            background-size: cover;
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          .info {
+            max-width: 50%;
+            padding-left: 15px;
+            padding-right: 15px;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 10vh;
+            p {
+              display: block;
+              margin-block-start: 1em;
+              margin-block-end: 1em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+            }
+            .resume {
+              h3 {
+                color: white;
+                border: 2px solid white;
+                width: 30%;
+                padding: 10px;
+                text-align: center;
+                margin-top: 20px;
+                background: linear-gradient(to left, $name-color 50%, white 50%)
+                  right;
+                background-size: 200%;
+                transition: 0.5s ease-out;
+              }
+              h3:hover {
+                background-position: left;
+
+                color: $name-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// mobile view
+@media (max-width: 767px) {
+  main {
+    .about {
+      background: $about-bg;
+      height: auto;
+
+      .about-container {
+        color: white;
+
+        .about-me {
+          padding: 40px;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 2.5rem;
+        }
+        .flex-items {
+          padding: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin: 0 70px;
+
+          .dp {
+            position: relative;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin-bottom: 3rem;
+          }
+          .info {
+            max-width: 100%;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            // margin-left: 10vh;
+            p {
+              display: block;
+              margin-block-start: 1em;
+              margin-block-end: 0.5em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+            }
+
+            .resume {
+              h3 {
+                border: 2px solid white;
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                margin-top: 20px;
+                color: white;
+                background: linear-gradient(to left, $name-color 50%, white 50%)
+                  right;
+                background-size: 200%;
+                transition: 0.5s ease-out;
+              }
+              h3:hover {
+                background-position: left;
+
+                color: $name-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

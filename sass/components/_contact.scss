@@ -1,0 +1,77 @@
+@media (min-width: 768px) {
+  main {
+    .contact {
+      margin-top: 10vh;
+      background: $name-color;
+      height: 40vh;
+      .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header {
+          margin: 5vh;
+          color: white;
+          font-size: 1.7rem;
+        }
+        p {
+          color: white;
+          font-size: 1.6rem;
+          margin-bottom: 15px;
+        }
+        .email {
+          color: white;
+          font-size: 1.5rem;
+          border: 3px solid white;
+          padding: 10px;
+          background: linear-gradient(to left, $name-color 50%, white 50%) right;
+          background-size: 200%;
+          transition: 0.5s ease-out;
+        }
+        .email:hover {
+          background-position: left;
+          color: $name-color;
+        }
+      }
+    }
+  }
+}
+
+// mobile
+@media (max-width: 767px) {
+  main {
+    .contact {
+      margin-top: 10vh;
+      background: $name-color;
+      height: 50vh;
+      .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header {
+          margin: 5vh;
+          color: white;
+          font-size: 1.7rem;
+        }
+        p {
+          text-align: center;
+          color: white;
+          font-size: 1.6rem;
+          margin-bottom: 30px;
+        }
+        .email {
+          color: white;
+          font-size: 1.5rem;
+          border: 3px solid white;
+          padding: 10px;
+          background: linear-gradient(to left, $name-color 50%, white 50%) right;
+          background-size: 200%;
+          transition: 0.5s ease-out;
+        }
+        .email:hover {
+          background-position: left;
+          color: $name-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+@media (min-width: 768px) {
+  main {
+    section {
+      height: auto;
+      .projects {
+        .project-container {
+          margin-bottom: 20px;
+          .project-topic {
+            text-align: center;
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: $header-color;
+          }
+        }
+        .projects-flex {
+          display: flex;
+          justify-content: space-around;
+          margin: 0 20vh;
+          margin-bottom: 50px;
+          .project-info {
+            .title {
+              color: $header-color;
+              margin-bottom: 20px;
+            }
+            .litle-info {
+              max-width: 60%;
+              color: $header-color;
+            }
+
+            .btns {
+              margin-top: 20px;
+              display: flex;
+              .see-live {
+                margin-right: 30px;
+                border: 3px solid $name-color;
+                color: $name-color;
+                padding: 10px;
+                background: linear-gradient(to left, white 50%, $name-color 50%)
+                  right;
+                background-size: 200%;
+                transition: 0.5s ease-out;
+              }
+              .see-live:hover {
+                background-position: left;
+                color: white;
+              }
+
+              .source-code {
+                color: $name-color;
+                padding: 10px;
+              }
+            }
+          }
+          .project-img {
+            width: 600px;
+            transition: all 0.5s ease;
+            box-shadow: -4px 7px 23px -3px rgba(0, 0, 0, 0.75);
+          }
+          .project-img:hover {
+            transform: scale(95%);
+          }
+        }
+      }
+    }
+  }
+}
+
+// mobile
+@media (max-width: 768px) {
+  main {
+    section {
+      margin-top: 10vh;
+      height: auto;
+      .projects {
+        .project-container {
+          margin-bottom: 20px;
+          .project-topic {
+            text-align: center;
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: $header-color;
+          }
+        }
+        .projects-flex {
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          align-items: flex-start;
+          margin: 20vh 2vh;
+          margin-bottom: 50px;
+          .project-info {
+            .title {
+              color: $header-color;
+              margin-bottom: 20px;
+            }
+            .litle-info {
+              max-width: 100%;
+              color: $header-color;
+            }
+
+            .btns {
+              margin-top: 20px;
+              display: flex;
+              .see-live {
+                margin-right: 30px;
+                border: 3px solid $name-color;
+                color: $name-color;
+                padding: 10px;
+                margin-bottom: 3vh;
+                background: linear-gradient(to left, white 50%, $name-color 50%)
+                  right;
+                background-size: 200%;
+                transition: 0.5s ease-out;
+              }
+              .see-live:hover {
+                background-position: left;
+                color: white;
+              }
+
+              .source-code {
+                color: $name-color;
+                padding: 10px;
+              }
+            }
+          }
+          .project-img {
+            margin: auto;
+            height: auto;
+            width: 100%;
+            transition: all 0.5s ease;
+            box-shadow: -4px 7px 23px -3px rgba(0, 0, 0, 0.75);
+          }
+          .project-img:hover {
+            transform: scale(95%);
+          }
+        }
+      }
+    }
+  }
+}

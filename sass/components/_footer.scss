@@ -1,0 +1,108 @@
+@media (min-width: 768px) {
+  footer {
+    .footer-container {
+      background: black;
+      height: 40vh;
+      .arrow {
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 10vh;
+      }
+    }
+    .social-links {
+      .links {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+
+        a {
+          margin-left: 10px;
+          padding: 20px;
+          text-align: center;
+          transition: all 0.5s linear;
+          li {
+            i {
+              font-size: 2rem;
+              color: white;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        a:hover {
+          background: $name-color;
+        }
+      }
+      hr {
+        width: 18%;
+        margin: auto;
+        color: #333;
+        background: #333;
+      }
+      .copy {
+        margin-top: 5px;
+        text-align: center;
+        color: rgb(119, 119, 119);
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+// mobile
+@media (max-width: 768px) {
+  footer {
+    .footer-container {
+      background: black;
+      height: 40vh;
+      .arrow {
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 10vh;
+      }
+    }
+    .social-links {
+      .links {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+
+        a {
+          margin-left: 10px;
+          padding: 20px;
+          text-align: center;
+          transition: all 0.5s linear;
+          li {
+            i {
+              font-size: 2rem;
+              color: white;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        a:hover {
+          background: $name-color;
+        }
+      }
+      hr {
+        width: 18%;
+        margin: auto;
+        color: #333;
+        background: #333;
+      }
+      .copy {
+        margin-top: 5px;
+        text-align: center;
+        color: rgb(119, 119, 119);
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+  header {
+    height: 70%;
+
+    .h-container {
+      margin-top: 30vh;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-right: auto;
+      margin-left: 20vh;
+      h1 {
+        color: $header-color;
+        max-width: 900px;
+        font-weight: 700;
+        font-size: 50px;
+
+        .name {
+          color: $name-color;
+        }
+      }
+
+      .know-more {
+        margin-top: 8vh;
+        max-width: 15%;
+        text-align: center;
+
+        h3 {
+          border: 3px solid $name-color;
+          padding: 10px;
+          font-weight: 900;
+          color: $name-color;
+          background: linear-gradient(to left, white 50%, $name-color 50%) right;
+          background-size: 200%;
+          transition: 0.5s ease-out;
+        }
+        h3:hover {
+          background-position: left;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    .h-container {
+      margin-top: 30vh;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      h1 {
+        color: $header-color;
+        max-width: 600px;
+        font-weight: 700;
+        font-size: 50px;
+
+        .name {
+          color: $name-color;
+        }
+      }
+
+      .know-more {
+        margin-top: 8vh;
+        text-align: center;
+        margin-bottom: 10vh;
+        h3 {
+          border: 3px solid $name-color;
+          padding: 10px;
+          font-weight: 900;
+          color: $name-color;
+        }
+      }
+    }
+  }
+}
