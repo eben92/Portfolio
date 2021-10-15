@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -90,6 +94,14 @@ li {
   main .about {
     background: #02b5af;
     height: 100vh;
+  }
+  main .about .slant {
+    position: relative;
+    top: 60px;
+    background: white;
+    width: 100%;
+    height: 20vh;
+    transform: skewY(-5deg);
   }
   main .about .about-container {
     color: white;
@@ -216,7 +228,8 @@ li {
     height: auto;
   }
   main section .projects .project-container {
-    margin-bottom: 20px;
+    margin-top: 20vh;
+    margin-bottom: 15vh;
   }
   main section .projects .project-container .project-topic {
     text-align: center;
@@ -333,9 +346,17 @@ li {
 }
 @media (min-width: 768px) {
   main .contact {
-    margin-top: 10vh;
+    margin-top: 20vh;
     background: #01c1ae;
-    height: 40vh;
+    height: 60vh;
+  }
+  main .contact .slant {
+    position: relative;
+    bottom: 60px;
+    background: white;
+    width: 100%;
+    height: 20vh;
+    transform: skewY(-5deg);
   }
   main .contact .contact-container {
     display: flex;

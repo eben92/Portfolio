@@ -4,6 +4,15 @@
       background: $about-bg;
       height: 100vh;
 
+      .slant {
+        position: relative;
+        top: 60px;
+        background: white;
+        width: 100%;
+        height: 20vh;
+        transform: skewY(-5deg);
+      }
+
       .about-container {
         color: white;
 

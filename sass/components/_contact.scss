@@ -1,9 +1,17 @@
 @media (min-width: 768px) {
   main {
     .contact {
-      margin-top: 10vh;
+      margin-top: 20vh;
       background: $name-color;
-      height: 40vh;
+      height: 60vh;
+      .slant {
+        position: relative;
+        bottom: 60px;
+        background: white;
+        width: 100%;
+        height: 20vh;
+        transform: skewY(-5deg);
+      }
       .contact-container {
         display: flex;
         flex-direction: column;
@@ -43,6 +51,7 @@
       margin-top: 10vh;
       background: $name-color;
       height: 50vh;
+
       .contact-container {
         display: flex;
         flex-direction: column;
