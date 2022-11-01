@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "HK Grotesk", sans-serif !important;
   overflow-x: hidden !important;
 }
 
@@ -153,10 +153,12 @@ li {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
   }
+  main .about .about-container .flex-items .info .resume {
+    display: flex;
+  }
   main .about .about-container .flex-items .info .resume h3 {
     color: white;
     border: 2px solid white;
-    width: 30%;
     padding: 10px;
     text-align: center;
     margin-top: 20px;
@@ -293,7 +295,7 @@ li {
     padding: 10px;
   }
   main section .projects .projects-flex .project-img {
-    max-width: 600px;
+    max-width: 450px;
     transition: all 0.5s ease;
     box-shadow: -4px 7px 23px -3px rgba(0, 0, 0, 0.75);
   }

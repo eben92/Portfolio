@@ -60,10 +60,12 @@
               margin-inline-end: 0px;
             }
             .resume {
+              display: flex;
+
               h3 {
                 color: white;
                 border: 2px solid white;
-                width: 30%;
+                // width: 30%;
                 padding: 10px;
                 text-align: center;
                 margin-top: 20px;

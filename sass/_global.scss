@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
 
 // variables
-$ff: 'Montserrat', sans-serif;
+$ff: 'HK Grotesk', sans-serif;
+// $ff: 'Montserrat', sans-serif;
 $bg-color: rgb(255, 255, 255);
 $header-color: rgb(39, 35, 65);
 $name-color: rgb(1, 193, 174);
@@ -18,7 +19,7 @@ html {
 }
 
 body {
-  font-family: $ff;
+  font-family: $ff !important;
   overflow-x: hidden !important;
 }
 
